@@ -1,27 +1,27 @@
 [
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_beryllium",
+        "remote":       "github",
+        "repository":   "goodmeow/device_xiaomi_beryllium",
         "target_path":  "device/xiaomi/beryllium",
-        "revision":     "quartz"
+        "revision":     "quartz-dev"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_sdm845-common",
+        "remote":       "github",
+        "repository":   "goodmeow/android_device_xiaomi_sdm845-common",
         "target_path":  "device/xiaomi/sdm845-common",
-        "revision":     "quartz"
+        "revision":     "quartz-dev"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_kernel_xiaomi_sdm845",
+        "remote":       "github",
+        "repository":   "gmw-project/android_kernel_xiaomi_sdm845",
         "target_path":  "kernel/xiaomi/sdm845",
         "revision":     "quartz"
     },
     {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_xiaomi",
+        "remote":       "github",
+        "repository":   "gmw-project/vendor_xiaomi",
         "target_path":  "vendor/xiaomi",
-        "revision":     "quartz"
+        "revision":     "quartz-dev"
     },
     {
         "remote":       "aospa",
@@ -70,5 +70,17 @@
         "repository":   "platform/vendor/nxp/opensource/hidlimpl",
         "target_path":  "vendor/nxp/opensource/hidlimpl",
         "revision":     "refs/tags/LA.UM.8.3.r1-07600-sdm845.0"
+    },
+    { 
+        "remote":       "github",
+        "repository":   "kdrag0n/proton-clang",
+        "target_path":  "prebuilts/clang/host/linux-x86/clang-proton",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_xiaomi",
+        "target_path":  "hardware/xiaomi",
+        "revision":     "lineage-17.1"
     }
 ]
